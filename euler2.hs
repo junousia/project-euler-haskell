@@ -8,4 +8,4 @@ evenfib = filter (\x -> mod x 2 == 0) fib
 main :: IO ()
 main = do
 	printf "Euler Project problem 2 - Even Fibonacci numbers:\n"
-	print (takeWhile (<4000000) evenfib)
+	print (sum(takeWhile (<4000000) evenfib)::Int)
