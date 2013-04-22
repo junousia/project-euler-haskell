@@ -11,4 +11,4 @@ multiples (x:xs)
 main :: IO ()
 main = do
 	printf "Euler Project problem 1 - Multiples of 3 and 5:\n"
-	printf "%d\n" (sum (multiples [1..1000])::Int)
+	printf "%d\n" (sum (multiples [1..999])::Int)
